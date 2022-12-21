@@ -1,0 +1,17 @@
+[[web_page]]
+url = "https://en.wikipedia.org/wiki/Main_Page"
+content_pattern = "Log in"
+interval = 120
+
+[[web_page]]
+url = "https://muusikoiden.net/"
+content_pattern = "Kirjaudu"
+
+[[web_page]]
+url = "https://muusikoiden.net/"
+content_pattern = "asdasdasd"
+
+[[web_page]]
+url = "https://muusikoiden.net/asd"
+content_pattern = ""
+interval = 30
