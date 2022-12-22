@@ -1,0 +1,28 @@
+{
+    "family": "webpage-monitor",
+    "containerDefinitions": [
+        {
+            "name": "webpage-monitor",
+            "image": "${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/${{ secrets.AWS_ECR_REPOSITORY }}:${{ github.sha }}",
+            "cpu": 1024,
+            "memory": 1024,
+            "essential": true,
+            "portMappings": [
+                {
+                    "containerPort": 80,
+                    "hostPort": 80
+                }
+            ]
+        }
+    ],
+    "requiresCompatibilities": [
+        "EC2"
+    ],
+    "networkMode": "bridge",
+    "placementConstraints": [
+        {
+            "type": "memberOf",
+            "expression": "attribute:ecs.availability-zone in [eu-north-1]"
+        }
+    ]
+}
