@@ -1,2 +1,3 @@
 toml~=0.10.2
 behave~=1.2.6
+fastapi~=0.88.0

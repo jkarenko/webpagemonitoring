@@ -1,17 +1,21 @@
 [[web_page]]
 url = "https://en.wikipedia.org/wiki/Main_Page"
+name = "Wikipedia"
 content_pattern = "Log in"
 interval = 120
 
 [[web_page]]
 url = "https://muusikoiden.net/"
+name = "Muusikoiden.net"
 content_pattern = "Kirjaudu"
 
 [[web_page]]
-url = "https://muusikoiden.net/"
-content_pattern = "asdasdasd"
+url = "https://misaligned.band/"
+name = "Misaligned"
+content_pattern = "Misaligned"
 
 [[web_page]]
-url = "https://muusikoiden.net/asd"
-content_pattern = ""
+url = "http://juho.karenko.fi/"
+name = "my homepage"
+content_pattern = "Juho"
 interval = 30
