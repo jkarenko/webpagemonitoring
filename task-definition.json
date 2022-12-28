@@ -16,8 +16,7 @@
         }
     ],
     "requiresCompatibilities": [
-        "EC2",
-        "FARGATE"
+        "EC2"
     ],
     "networkMode": "bridge",
     "placementConstraints": [

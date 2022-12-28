@@ -88,3 +88,6 @@ The test suite starts a HTTP server to mock needed responses.
 - All traffic from agents should use E2E encryption.
 - Agents should be authenticated before allowing them to send data to the central server. API-key, token or OAuth.
 - The central server may be subject to heavy traffic due to multiple agents sending data constantly. Consider using a load balancer and an auto scaling group to keep high availability.
+
+## 6. Demo
+A demo might be running at http://ec2-13-53-71-166.eu-north-1.compute.amazonaws.com/
