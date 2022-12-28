@@ -9,7 +9,7 @@ main.main()
 app = FastAPI(docs_url="/api/docs", redoc_url="/api/redoc")
 app.router = APIRouter(prefix="/api/v1")
 origins = [
-    "http://localhost:3000",
+    "*",
 ]
 app.add_middleware(
     CORSMiddleware,
