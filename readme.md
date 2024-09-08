@@ -90,4 +90,5 @@ The test suite starts a HTTP server to mock needed responses.
 - The central server may be subject to heavy traffic due to multiple agents sending data constantly. Consider using a load balancer and an auto scaling group to keep high availability.
 
 ## 6. Demo
-A demo might be running at http://ec2-13-53-71-166.eu-north-1.compute.amazonaws.com/
+
+![Demo](doc/demo.gif)
